@@ -57,3 +57,39 @@ button:hover {
 .calculator-container {
   margin-top: 40px;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  input[type="text"],
+  select {
+    font-size: 14px;
+  }
+  
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  
+  #result,
+  #caloriesResult {
+    font-size: 16px;
+  }
+  
+  .calculator-container {
+    margin-top: 20px;
+  }
+}
